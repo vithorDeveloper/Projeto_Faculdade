@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.center{
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 2% 0;
+}
+
+.clean{
+    clear: both;
+}
+
+div.container{
+    background: rgb(255,255,255);
+    background: rgb(222,223,223);
+    background: linear-gradient(180deg, rgba(222,223,223,1) 0%, rgba(203,203,203,1) 30%, rgba(255,255,255,0) 440%);background: linear-gradient(180deg, rgba(238,250,250,1) 0%, rgba(191,192,194,1) 30%, rgba(255,255,255,0) 440%);background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(191,192,194,1) 89%, rgba(255,255,255,0) 440%);
+}
+
+
+div.linha{
+    width: 100%;
+    height: 2px;
+    background-color: azure;
+    margin: 10px 0;
+}
+
+div.linha2{
+    width: 18%;
+    height: 2px;
+    background-color: rgb(0, 183, 255);
+    margin: 0 auto;
+}
+
+div.linha3{
+    width: 80%;
+    height: 2px;
+    background-color: rgb(0, 183, 255);
+    margin: 0 auto;
+}
+
+header{
+    position: relative;
+    z-index: 2;
+}
+
+div.texto-header{
+    padding: 10% 0 0 4%
+}
+
+h1{
+    font-size: 50px;
+    font-weight: lighter;
+    color: azure;
+}
+
+span{
+    color:rgb(38, 131, 253);
+}
+
+p.p1{
+    color: azure;
+    padding: 20px 0;
+    width: 70%;
+}
+
+p.p2{
+    color: azure;
+    padding: 20px 0;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+
+div.banner{
+    background-image: url('../imagens/bg1.jpg');
+    min-height: 800px;
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+nav.menu-desktop{
+    float: right;
+    justify-content: flex-end;
+
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: azure;
+    font-size: 18px;
+}
+
+h2.logo{
+    font-size: 23px;
+    color: azure;
+    float: left;
+}
+
+div.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 89.6%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+a.btn{
+    color:azure;
+    background-color: rgb(38, 131, 253);
+    border: none;
+    border-radius: 50px;
+    font-weight: lighter;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+
+p.p3{
+   text-align: center;
+   padding: 10px 0;
+   font-size: 20px;
+   color: rgb(85, 85, 85);
+}
+
+article{
+    width: 250px;
+    height: 270px;
+    margin: 70px 0 100px 0;
+    box-shadow: 9px 10px 18px rgba(99, 99, 99, 0.77);
+    border-radius: 20px;
+}
+
+article p{
+    text-align: start;
+    padding: 15px;
+    line-height: 23px;
+}
+
+section.slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div.box{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(38, 131, 253);
+    padding: 15px;
+    margin-right: 25px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: lighter;
+    color: azure;
+    border-radius: 20px 20px 0 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 50px auto 0 auto;
+    padding: 15px;
+    border-radius: 9px;
+    /* background: rgb(157,215,255);
+    background: linear-gradient(180deg, rgba(157,215,255,1) 0%, rgba(141,194,242,1) 30%, rgba(255,255,255,0) 440%); */
+    box-shadow: 26px 21px 58px -7px rgba(0,0,0,0.57);
+}
+
+h4{
+    padding: 20px;
+}
+
+label{
+    padding: 15px 0 7px 0;
+}
+
+form input{
+    padding: 11px;
+    border-radius:9px; 
+    border: none;
+    box-shadow: 0.1px 0.1px 1px 1px black;
+}
+
+form input[type=text]:focus{
+    outline: none;
+}
+
+form input[type=submit]{
+    margin: 0 auto;
+    border: none;
+    padding: 16px 16px;
+    margin: 50px 50px 0 50px;
+    background-color: rgba(38, 131, 253, 0.897);
+    color: aliceblue;
+}
+
+div.formulario{
+    padding-bottom: 40px;
+}
+
+h6{
+    margin: 8px auto;
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgba(112, 112, 112, 0.192);
+    padding: 20px 10% 40px 10%;
+}
+
+footer p{
+    float: left;
+}
+
+footer span{
+    float:right;
+}
+

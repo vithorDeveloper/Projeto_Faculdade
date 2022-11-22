@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    background-image: url('../imagens/escritorio.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.center{
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 2% 0 10px 0;
+}
+
+.clean{
+    clear: both;
+}
+
+div.banner{
+    background-color: gray;
+    opacity: 0.7;
+}
+
+nav.menu-desktop{
+    float: right;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: azure;
+    font-size: 18px;
+}
+
+h2.logo{
+    font-size: 23px;
+    color: azure;
+    float: left;
+}
+
+a.btn{
+    color:azure;
+    background-color: rgb(38, 131, 253);
+    border: none;
+    border-radius: 50px;
+    font-weight: lighter;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 50px auto 0 auto;
+    padding: 15px;
+    border-radius: 9px;
+    box-shadow: 26px 21px 58px -7px rgba(0,0,0,0.57);
+    background-color: rgb(137, 150, 173);
+    opacity: 0.9;
+}
+
+h4{
+    padding: 20px;
+}
+
+label{
+    padding: 15px 0 7px 0;
+}
+
+form input{
+    padding: 11px;
+    border-radius:9px; 
+    border: none;
+    box-shadow: 0.1px 0.1px 1px 1px black;
+}
+
+form input[type=text]:focus{
+    outline: none;
+}
+
+form input[type=submit]{
+    margin: 0 auto;
+    border: none;
+    padding: 16px 16px;
+    margin: 50px 50px 0 50px;
+    background-color: rgba(38, 131, 253, 0.897);
+    color: aliceblue;
+}
+
+div.formulario{
+    padding-bottom: 40px;
+}
+
+h6{
+    margin: 8px auto;
+    cursor: pointer;
+}
+
+div.linha3{
+    width: 80%;
+    height: 2px;
+    background-color: rgb(38, 131, 253);
+    margin: 30px auto 0 auto;
+}
+
+h2.linha{
+    text-align: center;
+    padding-top: 15px;
+}
